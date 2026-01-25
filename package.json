@@ -1,0 +1,28 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "This is a library API managment for the managment user an the books",
+  "homepage": "https://github.com/Fzcode10/Library-Management-System#readme",
+  "bugs": {
+    "url": "https://github.com/Fzcode10/Library-Management-System/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fzcode10/Library-Management-System.git"
+  },
+  "license": "ISC",
+  "author": "Faiz Ahamad", 
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
