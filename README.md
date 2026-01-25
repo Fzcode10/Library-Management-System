@@ -1,6 +1,5 @@
 # Library-Management-System
 
-<<<<<<< HEAD
    This is a library API managment for the managment user an the books
 
 # Routes and End point
@@ -53,6 +52,3 @@ npm i nodemon --save-dev
 npm rub dev
 
 to restore node modules and package-lock.json input npm i/ npm install
-=======
-   commiting by faiz
->>>>>>> 88bd60311914e7bb2ec001b2fde960f473d219b9
