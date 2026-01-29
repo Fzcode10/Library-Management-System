@@ -1,404 +1,249 @@
 {
-    "books": [
-        {
-            "id": 1,
-            "name": "The Silent Horizon",
-            "author": "Elena Cross",
-            "genre": "Science Fiction",
-            "price": 14.99,
-            "publisher": "NovaLeaf Publishing"
-        },
-        {
-            "id": 2,
-            "name": "Whispers of the Past",
-            "author": "Daniel Moore",
-            "genre": "Historical Fiction",
-            "price": 12.50,
-            "publisher": "Amber House"
-        },
-        {
-            "id": 3,
-            "name": "Code of Shadows",
-            "author": "Ravi Patel",
-            "genre": "Thriller",
-            "price": 18.00,
-            "publisher": "Ironclad Press"
-        },
-        {
-            "id": 4,
-            "name": "Petals & Thorns",
-            "author": "Mia Laurent",
-            "genre": "Romance",
-            "price": 10.99,
-            "publisher": "Bluebell Books"
-        },
-        {
-            "id": 5,
-            "name": "The Last Algorithm",
-            "author": "Victor Han",
-            "genre": "Technology",
-            "price": 22.75,
-            "publisher": "ByteWise Publications"
-        },
-        {
-            "id": 6,
-            "name": "Midnight Harbor",
-            "author": "Sophie Reed",
-            "genre": "Mystery",
-            "price": 13.49,
-            "publisher": "Crescent Ink"
-        },
-        {
-            "id": 7,
-            "name": "Ashes of Tomorrow",
-            "author": "Lucas Gray",
-            "genre": "Dystopian",
-            "price": 15.25,
-            "publisher": "RedLine Press"
-        },
-        {
-            "id": 8,
-            "name": "The Glass Kingdom",
-            "author": "Nora Bennett",
-            "genre": "Fantasy",
-            "price": 19.99,
-            "publisher": "Mythos House"
-        },
-        {
-            "id": 9,
-            "name": "Echoes in Code",
-            "author": "Aaron Lin",
-            "genre": "Technology",
-            "price": 21.00,
-            "publisher": "Digital Age Books"
-        },
-        {
-            "id": 10,
-            "name": "Beneath the Olive Tree",
-            "author": "Isabella Romano",
-            "genre": "Drama",
-            "price": 11.75,
-            "publisher": "Suncrest Publishing"
-        },
-        {
-            "id": 11,
-            "name": "Quantum Drift",
-            "author": "Henry Cole",
-            "genre": "Science Fiction",
-            "price": 17.60,
-            "publisher": "NovaLeaf Publishing"
-        },
-        {
-            "id": 12,
-            "name": "The Broken Compass",
-            "author": "Liam O'Connor",
-            "genre": "Adventure",
-            "price": 14.20,
-            "publisher": "Trailbound Books"
-        },
-        {
-            "id": 13,
-            "name": "Ink & Ivory",
-            "author": "Chloe Martin",
-            "genre": "Romance",
-            "price": 9.99,
-            "publisher": "Bluebell Books"
-        },
-        {
-            "id": 14,
-            "name": "The Cold Equation",
-            "author": "Sergey Volkov",
-            "genre": "Thriller",
-            "price": 16.80,
-            "publisher": "Ironclad Press"
-        },
-        {
-            "id": 15,
-            "name": "Gardens of Kyoto",
-            "author": "Aiko Tanaka",
-            "genre": "Travel",
-            "price": 20.00,
-            "publisher": "WanderWords"
-        },
-        {
-            "id": 16,
-            "name": "Neon Nights",
-            "author": "Marcus King",
-            "genre": "Crime",
-            "price": 13.95,
-            "publisher": "Midtown Noir"
-        },
-        {
-            "id": 17,
-            "name": "The Paper Alchemist",
-            "author": "Evelyn Shaw",
-            "genre": "Fantasy",
-            "price": 18.99,
-            "publisher": "Mythos House"
-        },
-        {
-            "id": 18,
-            "name": "Fragments of Us",
-            "author": "Oliver Hayes",
-            "genre": "Drama",
-            "price": 12.30,
-            "publisher": "Amber House"
-        },
-        {
-            "id": 19,
-            "name": "AI for Everyone",
-            "author": "Priya Nair",
-            "genre": "Technology",
-            "price": 24.50,
-            "publisher": "ByteWise Publications"
-        },
-        {
-            "id": 20,
-            "name": "Storm Over Atlas",
-            "author": "Jonah Reed",
-            "genre": "Adventure",
-            "price": 15.99,
-            "publisher": "Trailbound Books"
-        },
-        {
-            "id": 21,
-            "name": "The Vanishing Hour",
-            "author": "Katherine Bloom",
-            "genre": "Mystery",
-            "price": 14.40,
-            "publisher": "Crescent Ink"
-        },
-        {
-            "id": 22,
-            "name": "Beyond the Firewall",
-            "author": "Noah Kim",
-            "genre": "Technology",
-            "price": 23.10,
-            "publisher": "Digital Age Books"
-        },
-        {
-            "id": 23,
-            "name": "Dust and Crown",
-            "author": "Samuel Wright",
-            "genre": "Fantasy",
-            "price": 19.50,
-            "publisher": "Mythos House"
-        },
-        {
-            "id": 24,
-            "name": "The Long Goodbye Road",
-            "author": "Harper Lane",
-            "genre": "Literary Fiction",
-            "price": 11.99,
-            "publisher": "Suncrest Publishing"
-        },
-        {
-            "id": 25,
-            "name": "Wired Minds",
-            "author": "Anita Desai",
-            "genre": "Technology",
-            "price": 21.75,
-            "publisher": "ByteWise Publications"
-        },
-        {
-            "id": 26,
-            "name": "Moonfall City",
-            "author": "Ethan Brooks",
-            "genre": "Science Fiction",
-            "price": 16.25,
-            "publisher": "NovaLeaf Publishing"
-        },
-        {
-            "id": 27,
-            "name": "The Velvet Mask",
-            "author": "Lucia Fernandez",
-            "genre": "Romance",
-            "price": 10.50,
-            "publisher": "Bluebell Books"
-        },
-        {
-            "id": 28,
-            "name": "Hidden Signals",
-            "author": "Omar Khalid",
-            "genre": "Thriller",
-            "price": 17.90,
-            "publisher": "Ironclad Press"
-        },
-        {
-            "id": 29,
-            "name": "Roots of the Mountain",
-            "author": "Benjamin Fox",
-            "genre": "Nature",
-            "price": 13.60,
-            "publisher": "GreenTrail Press"
-        },
-        {
-            "id": 30,
-            "name": "The Time Cartographer",
-            "author": "Lydia Wells",
-            "genre": "Science Fiction",
-            "price": 18.40,
-            "publisher": "NovaLeaf Publishing"
-        },
-        {
-            "id": 31,
-            "name": "Canvas of Dreams",
-            "author": "Amelia Hart",
-            "genre": "Art",
-            "price": 20.99,
-            "publisher": "Creative Ink"
-        },
-        {
-            "id": 32,
-            "name": "Dead Letter Office",
-            "author": "Peter Sloan",
-            "genre": "Mystery",
-            "price": 14.80,
-            "publisher": "Crescent Ink"
-        },
-        {
-            "id": 33,
-            "name": "The Iron Orchard",
-            "author": "Caleb Turner",
-            "genre": "Western",
-            "price": 12.75,
-            "publisher": "Frontier Books"
-        },
-        {
-            "id": 34,
-            "name": "Love in Monsoon Season",
-            "author": "Rina Kapoor",
-            "genre": "Romance",
-            "price": 9.80,
-            "publisher": "Bluebell Books"
-        },
-        {
-            "id": 35,
-            "name": "Secure by Design",
-            "author": "Michael Adams",
-            "genre": "Technology",
-            "price": 25.00,
-            "publisher": "Digital Age Books"
-        },
-        {
-            "id": 36,
-            "name": "The Lighthouse Keeper",
-            "author": "Grace Milton",
-            "genre": "Drama",
-            "price": 11.40,
-            "publisher": "Amber House"
-        },
-        {
-            "id": 37,
-            "name": "Starbound Legacy",
-            "author": "Tyler Nguyen",
-            "genre": "Science Fiction",
-            "price": 19.20,
-            "publisher": "NovaLeaf Publishing"
-        },
-        {
-            "id": 38,
-            "name": "Between Two Rivers",
-            "author": "Hannah Collins",
-            "genre": "Historical Fiction",
-            "price": 13.99,
-            "publisher": "Suncrest Publishing"
-        },
-        {
-            "id": 39,
-            "name": "The Cipher Room",
-            "author": "Julian Park",
-            "genre": "Thriller",
-            "price": 16.50,
-            "publisher": "Ironclad Press"
-        },
-        {
-            "id": 40,
-            "name": "Minimal Living",
-            "author": "Sara Bloom",
-            "genre": "Lifestyle",
-            "price": 18.00,
-            "publisher": "ClearMind Press"
-        },
-        {
-            "id": 41,
-            "name": "Forgotten Tides",
-            "author": "Nathan Cole",
-            "genre": "Adventure",
-            "price": 15.10,
-            "publisher": "Trailbound Books"
-        },
-        {
-            "id": 42,
-            "name": "Poems for Quiet Hours",
-            "author": "Emily Frost",
-            "genre": "Poetry",
-            "price": 9.50,
-            "publisher": "SilverLine Press"
-        },
-        {
-            "id": 43,
-            "name": "The Digital Frontier",
-            "author": "Alex Morgan",
-            "genre": "Technology",
-            "price": 22.30,
-            "publisher": "ByteWise Publications"
-        },
-        {
-            "id": 44,
-            "name": "Under the Crimson Sky",
-            "author": "Dmitri Ivanov",
-            "genre": "War",
-            "price": 17.00,
-            "publisher": "Ironclad Press"
-        },
-        {
-            "id": 45,
-            "name": "The Quiet Baker",
-            "author": "Laura Simmons",
-            "genre": "Cooking",
-            "price": 20.50,
-            "publisher": "Hearth & Home"
-        },
-        {
-            "id": 46,
-            "name": "City of Paper Lanterns",
-            "author": "Wei Zhang",
-            "genre": "Fantasy",
-            "price": 18.75,
-            "publisher": "Mythos House"
-        },
-        {
-            "id": 47,
-            "name": "Running the Edge",
-            "author": "Tom Gallagher",
-            "genre": "Sports",
-            "price": 14.00,
-            "publisher": "Peak Performance Press"
-        },
-        {
-            "id": 48,
-            "name": "Mind Over Matter",
-            "author": "Dr. Helen Brooks",
-            "genre": "Self-Help",
-            "price": 16.99,
-            "publisher": "ClearMind Press"
-        },
-        {
-            "id": 49,
-            "name": "The Last Signal Tower",
-            "author": "Ryan Scott",
-            "genre": "Science Fiction",
-            "price": 17.85,
-            "publisher": "NovaLeaf Publishing"
-        },
-        {
-            "id": 50,
-            "name": "Letters Never Sent",
-            "author": "Paula Nguyen",
-            "genre": "Literary Fiction",
-            "price": 12.60,
-            "publisher": "Amber House"
-        }
-    ]
+  "books": [
+    {
+      "id": 1,
+      "name": "The Silent Horizon",
+      "author": "Elena Cross",
+      "genre": "Science Fiction",
+      "price": 14.99,
+      "publisher": "NovaLeaf Publishing",
+      "issuedID": [101, 102, 103],
+      "fine": [
+        { "userId": 101, "amount": 0 },
+        { "userId": 102, "amount": 25 },
+        { "userId": 103, "amount": 0 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Whispers of the Past",
+      "author": "Daniel Moore",
+      "genre": "Historical Fiction",
+      "price": 12.5,
+      "publisher": "Amber House",
+      "issuedID": [101, 104],
+      "fine": [
+        { "userId": 101, "amount": 0 },
+        { "userId": 104, "amount": 10 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Code of Shadows",
+      "author": "Ravi Patel",
+      "genre": "Thriller",
+      "price": 18,
+      "publisher": "Ironclad Press",
+      "issuedID": [102, 105],
+      "fine": [
+        { "userId": 102, "amount": 0 },
+        { "userId": 105, "amount": 40 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Petals & Thorns",
+      "author": "Mia Laurent",
+      "genre": "Romance",
+      "price": 10.99,
+      "publisher": "Bluebell Books",
+      "issuedID": [103],
+      "fine": [
+        { "userId": 103, "amount": 0 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Last Algorithm",
+      "author": "Victor Han",
+      "genre": "Technology",
+      "price": 22.75,
+      "publisher": "ByteWise Publications",
+      "issuedID": [101, 105],
+      "fine": [
+        { "userId": 101, "amount": 0 },
+        { "userId": 105, "amount": 15 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Midnight Harbor",
+      "author": "Sophie Reed",
+      "genre": "Mystery",
+      "price": 13.49,
+      "publisher": "Crescent Ink",
+      "issuedID": [102],
+      "fine": [
+        { "userId": 102, "amount": 0 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Ashes of Tomorrow",
+      "author": "Lucas Gray",
+      "genre": "Dystopian",
+      "price": 15.25,
+      "publisher": "RedLine Press",
+      "issuedID": [104, 105],
+      "fine": [
+        { "userId": 104, "amount": 20 },
+        { "userId": 105, "amount": 0 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "The Glass Kingdom",
+      "author": "Nora Bennett",
+      "genre": "Fantasy",
+      "price": 19.99,
+      "publisher": "Mythos House",
+      "issuedID": [101, 103],
+      "fine": [
+        { "userId": 101, "amount": 0 },
+        { "userId": 103, "amount": 5 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Echoes in Code",
+      "author": "Aaron Lin",
+      "genre": "Technology",
+      "price": 21,
+      "publisher": "Digital Age Books",
+      "issuedID": [102],
+      "fine": [
+        { "userId": 102, "amount": 0 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Beneath the Olive Tree",
+      "author": "Isabella Romano",
+      "genre": "Drama",
+      "price": 11.75,
+      "publisher": "Suncrest Publishing",
+      "issuedID": [104],
+      "fine": [
+        { "userId": 104, "amount": 0 }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Quantum Drift",
+      "author": "Henry Cole",
+      "genre": "Science Fiction",
+      "price": 17.6,
+      "publisher": "NovaLeaf Publishing",
+      "issuedID": [105],
+      "fine": [
+        { "userId": 105, "amount": 30 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "The Broken Compass",
+      "author": "Liam O'Connor",
+      "genre": "Adventure",
+      "price": 14.2,
+      "publisher": "Trailbound Books",
+      "issuedID": [101, 102],
+      "fine": [
+        { "userId": 101, "amount": 0 },
+        { "userId": 102, "amount": 0 }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Ink & Ivory",
+      "author": "Chloe Martin",
+      "genre": "Romance",
+      "price": 9.99,
+      "publisher": "Bluebell Books",
+      "issuedID": [103],
+      "fine": [
+        { "userId": 103, "amount": 0 }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "The Cold Equation",
+      "author": "Sergey Volkov",
+      "genre": "Thriller",
+      "price": 16.8,
+      "publisher": "Ironclad Press",
+      "issuedID": [104],
+      "fine": [
+        { "userId": 104, "amount": 12 }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Gardens of Kyoto",
+      "author": "Aiko Tanaka",
+      "genre": "Travel",
+      "price": 20,
+      "publisher": "WanderWords",
+      "issuedID": [105],
+      "fine": [
+        { "userId": 105, "amount": 0 }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Neon Nights",
+      "author": "Marcus King",
+      "genre": "Crime",
+      "price": 13.95,
+      "publisher": "Midtown Noir",
+      "issuedID": [101],
+      "fine": [
+        { "userId": 101, "amount": 18 }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "The Paper Alchemist",
+      "author": "Evelyn Shaw",
+      "genre": "Fantasy",
+      "price": 18.99,
+      "publisher": "Mythos House",
+      "issuedID": [102],
+      "fine": []
+    },
+    {
+      "id": 18,
+      "name": "Fragments of Us",
+      "author": "Oliver Hayes",
+      "genre": "Drama",
+      "price": 12.3,
+      "publisher": "Amber House",
+      "issuedID": [103, 104],
+      "fine": [
+        { "userId": 103, "amount": 0 },
+        { "userId": 104, "amount": 22 }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "AI for Everyone",
+      "author": "Priya Nair",
+      "genre": "Technology",
+      "price": 24.5,
+      "publisher": "ByteWise Publications",
+      "issuedID": [105],
+      "fine": [
+        { "userId": 105, "amount": 0 }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Storm Over Atlas",
+      "author": "Jonah Reed",
+      "genre": "Adventure",
+      "price": 15.99,
+      "publisher": "Trailbound Books",
+      "issuedID": [101, 102],
+      "fine": []
+    }
+  ]
 }

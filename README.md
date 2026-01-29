@@ -48,6 +48,7 @@ GET: Get all issued books with their fine ammount
 npm init
 npm i express 
 npm i nodemon --save-dev
+npm install mongodb
 
 npm rub dev
 

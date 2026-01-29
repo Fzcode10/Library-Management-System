@@ -1,11 +1,12 @@
 {
-    "users": [
+    "users": [ 
         {
             "id": 1,
             "name": "John Doe",
             "email": "john.doe@example.com",
             "phone": "555-0101",
             "membershipType": "standard",
+            "dateOfMembership" : "2025-10-01",
             "joinDate": "2023-01-15",
             "booksIssued": 3,
             "fineAmount": 0,
@@ -17,6 +18,7 @@
             "email": "jane.smith@example.com",
             "phone": "555-0102",
             "membershipType": "premium",
+            "dateOfMembership" : "2026-01-01",
             "joinDate": "2022-06-20",
             "booksIssued": 5,
             "fineAmount": 50,
@@ -28,6 +30,7 @@
             "email": "michael.j@example.com",
             "phone": "555-0103",
             "membershipType": "standard",
+            "dateOfMembership" : "2025-09-10",
             "joinDate": "2023-09-10",
             "booksIssued": 1,
             "fineAmount": 0,
@@ -39,6 +42,7 @@
             "email": "sarah.w@example.com",
             "phone": "555-0104",
             "membershipType": "basic",
+            "dateOfMembership" : "2025-01-20",
             "joinDate": "2023-11-05",
             "booksIssued": 0,
             "fineAmount": 0,
