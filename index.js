@@ -1,21 +1,28 @@
 const express = require("express");
-const app = express()
 
-const port = 1970;
+const booksRouter = require("./routes/books");
+const usersRouter = require("./routes/users");
+
+const app = express();
+
+const PORT = 1970;
+
 app.use(express.json());
 
-app.get('/', (req, res) => {
+app.get("/", (req, res) => { 
     res.status(200).json({
         message: "Home Page:-)"
     })
 });
 
-// app.all('*', (req, res) => {
-//     res.status(200).json({
-//         message: "Not Built yet"
-//     }) 
-// })
+app.use("/users", usersRouter);
+app.use("/books", booksRouter);
 
-app.listen(port, () => {
-    console.log(`App listen on link http://localhost:${port} `);
-})
+ 
+
+app.listen(PORT, () => {
+    console.log(`App listen on link http://localhost:${PORT} `);
+}) 
+
+
+module.exports = app;
